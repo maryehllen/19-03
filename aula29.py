@@ -21,7 +21,7 @@ def ver_cadastros (cadastros):
 
         for i, pessoa in enumerate (cadastros, 1):
             
-            print(f"{i}. Nome:{pessoa['Nome']}, Idade:{pessoa['Idade']}, Turma: {pessoa['Turma']}, Curso: {pessoa['Curso']}")
+            print(f"{i}. Nome:{pessoa['nome']}, Idade:{pessoa['idade']}, Turma: {pessoa['turma']}, Curso: {pessoa['c1urso']}")
                 
 def main():
     cadastros = []
